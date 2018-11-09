@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>TODO : v01</title>
+</head>
+<body>
+  <div id="identification">
+    <form>
+      <input type="text" id="newListe" placeholder="Nom de la liste"/>
+      <input type="button" value="Récupérer" onclick="actionChargerTodo()" />
+    </form>
+  </div>
+  <div id="todoListe">
+    <form name="formulaireAjout">
+      <input type="text"  id="newTodoTitre" placeholder="Titre"/>
+      <input type="text"  id="newTodoDescription" placeholder="Description"/>
+  		<input type="button" value="Ajouter" onclick="actionCreerUnTodo()" />
+  	</form>
+
+  	<ul id="mesTodos">
+  	</ul>
+  </div>
+
+  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="todos.js"></script>
+</body>
+</html>
